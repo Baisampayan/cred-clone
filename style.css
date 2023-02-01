@@ -1,4 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: url(/assets/font/Gilroy-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url(/assets/font/Gilroy-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(/assets/font/Gilroy-Bold.ttf);
+}
 
 * {
     margin: 0;
@@ -7,6 +20,83 @@
 
 body {
     background-color: #0f0f0f;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Gilroy-Regular', sans-serif;
     color: #ffffff;
+}
+
+a {
+    outline: 0px;
+    text-decoration: none;
+}
+
+/* Section: First */
+.section-first {
+    padding: 60px 200px 200px;
+    height: 100vh;
+    background-image: url(/assets/images/hero-bg.webp);
+    background-size: cover;
+    background-position: bottom right;
+    overflow: hidden;
+}
+
+.section-header {
+    max-height: 66px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-header-logo img {
+    height: 100%;
+}
+
+.section-navbar-menu-item {
+    display: flex;
+    align-items: center;
+}
+
+.section-navbar-menu-item div {
+    padding: 0px 20px 0px 30px;
+}
+
+.section-navbar-menu-item a {
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    font-size: 18px;
+    opacity: 0.8;
+    line-height: 36px;
+    color: white;
+    white-space: nowrap;
+}
+
+.section-banner-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-banner-heading {
+    margin-top: 100px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 106px;
+    line-height: 125px;
+    text-align: center;
+    white-space: pre-line;
+    letter-spacing: -3px;
+}
+
+.section-banner-paragraph {
+    margin-top: 35px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: -0.2px;
+    text-align: center;
+}
+
+.section-banner-button button {
+    margin-top: 58px;
+    padding: 20px 65px;
+    border-radius: 40px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
 }
