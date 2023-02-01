@@ -32,11 +32,11 @@ a {
 /* Section: First */
 .section-first {
     padding: 60px 200px 200px;
-    height: 100vh;
     background-image: url(/assets/images/hero-bg.webp);
     background-size: cover;
     background-position: bottom right;
     overflow: hidden;
+    /* height: 100vh; */
 }
 
 .section-header {
@@ -99,6 +99,8 @@ a {
     font-family: 'Gilroy-Bold', sans-serif;
     font-size: 24px;
     line-height: 30px;
+    cursor: pointer;
+    border: none;
 }
 
 /* Section: First */
@@ -115,4 +117,62 @@ a {
     position: absolute;
     left: calc(50% - 198px);
     top: 6%;
+}
+
+/* SECTION: THIRD */
+.section-third {
+    position: relative;
+    padding: 240px 200px 180px;
+    background-color: #ee2f4c;
+    color: #ffffff;
+    background-image: url(/assets/images/deserve-more-bg.webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    /* min-height: 100vh; */
+    /* justify-content: space-between; */
+}
+
+.section-third-header1 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 100px;
+    letter-spacing: -3.15px;
+    line-height: 96px;
+    opacity: 0.9;
+    width: 670px;
+}
+
+.section-third-header2 {
+    font-family: 'Gilroy-Bold';
+    font-size: 32px;
+    letter-spacing: -0.2px;
+    line-height: 38px;
+    max-width: 630px;
+    margin-top: 16px;
+    /* white-space: pre-line; */
+}
+
+.section-third-paragraph {
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    width: 630px;
+    /* white-space: pre-line; */
+    margin-bottom: 40px;
+}
+
+.section-third-button button {
+    text-align: center;
+    padding: 20px 65px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 24px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    letter-spacing: 0.4px;
+    line-height: 30px;
+    border-radius: 40px;
+    cursor: pointer;
+    border: none;
 }
