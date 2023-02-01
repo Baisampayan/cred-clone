@@ -20,3 +20,5 @@ Steps to contribute to this project:
 4. Make changes to the project
 5. Push the changes to your forked repository
 6. Create a pull request
+
+[Live View](https://baisampayan.github.io/cred-clone/)
