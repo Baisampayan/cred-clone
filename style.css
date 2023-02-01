@@ -100,3 +100,19 @@ a {
     font-size: 24px;
     line-height: 30px;
 }
+
+/* Section: First */
+.section-second {
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+    background-image: url(/assets/images/video-bg.jpeg);
+    background-size: cover;
+    background-position: top right;
+}
+
+.section-second-container img {
+    position: absolute;
+    left: calc(50% - 198px);
+    top: 6%;
+}
