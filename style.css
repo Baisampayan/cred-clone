@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'Gilroy-SemiBold';
-    src: url(/assets/font/Gilroy-SemiBold.ttf);
+    src: url(./assets/font/Gilroy-SemiBold.ttf);
 }
 
 @font-face {
     font-family: 'Gilroy-Regular';
-    src: url(/assets/font/Gilroy-Regular.ttf);
+    src: url(./assets/font/Gilroy-Regular.ttf);
 }
 
 @font-face {
     font-family: 'Gilroy-Bold';
-    src: url(/assets/font/Gilroy-Bold.ttf);
+    src: url(./assets/font/Gilroy-Bold.ttf);
 }
 
 * {
@@ -32,7 +32,7 @@ a {
 /* SECTION: FIRST */
 .section-first {
     padding: 60px 200px 200px;
-    background-image: url(/assets/images/hero-bg.webp);
+    background-image: url(./assets/images/hero-bg.webp);
     background-size: cover;
     background-position: bottom right;
     overflow: hidden;
@@ -108,7 +108,7 @@ a {
     height: 800px;
     position: relative;
     overflow: hidden;
-    background-image: url(/assets/images/video-bg.jpeg);
+    background-image: url(./assets/images/video-bg.jpeg);
     background-size: cover;
     background-position: top right;
 }
@@ -125,7 +125,7 @@ a {
     padding: 240px 200px 180px;
     background-color: #ee2f4c;
     color: #ffffff;
-    background-image: url(/assets/images/deserve-more-bg.webp);
+    background-image: url(./assets/images/deserve-more-bg.webp);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -193,7 +193,7 @@ a {
 }
 
 .section-fourth-logo {
-    background-image: url(/assets/images/brands-desktop.png);
+    background-image: url(./assets/images/brands-desktop.png);
     background-position: center center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -206,7 +206,7 @@ a {
 .section-fifth {
     background-color: #1a61e9;
     padding: 240px 200px 180px;
-    background-image: url(/assets/images/money-matters-bg.webp);
+    background-image: url(./assets/images/money-matters-bg.webp);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -258,7 +258,7 @@ a {
 .section-sixth {
     width: 1040px;
     padding: 240px 200px 250px;
-    background-image: url(/assets/images/hero-bg.webp);
+    background-image: url(./assets/images/hero-bg.webp);
     display: flex;
     min-height: 100vh;
 }

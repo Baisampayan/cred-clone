@@ -7,10 +7,10 @@ const section4Left4 = document.querySelector('.left-content-4')
 
 const section4RightImg = document.querySelector('.section-sixth-right-image')
 
-const section4RightImg1 = "/assets/images/neopop-fold1.png";
-const section4RightImg2 = "/assets/images/neopop-fold2.png";
-const section4RightImg3 = "/assets/images/neopop-fold3.png";
-const section4RightImg4 = "/assets/images/neopop-fold4.png";
+const section4RightImg1 = "./assets/images/neopop-fold1.png";
+const section4RightImg2 = "./assets/images/neopop-fold2.png";
+const section4RightImg3 = "./assets/images/neopop-fold3.png";
+const section4RightImg4 = "./assets/images/neopop-fold4.png";
 
 // add scroll event listener
 window.addEventListener('scroll', () => {
