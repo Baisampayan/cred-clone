@@ -320,3 +320,13 @@ a {
     object-fit: cover;
     border-radius: 46px;
 }
+
+/* SECTION: SEVENTH */
+.section-seventh {
+    background-image: url('./assets/images/neopop-image-mock.png');
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
