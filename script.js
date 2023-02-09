@@ -55,3 +55,44 @@ window.addEventListener('scroll', () => {
         }
     }
 })
+
+/* SECTION: TESTIMONIALS SLIDER */
+const testimonialsSlider = document.querySelector(".testimonials-slider");
+const testimonialsSlides = document.querySelectorAll(".testimonials-slide");
+const dots = document.querySelectorAll(".dot");
+
+let currentSlide = 0;
+
+const showSlide = (n) => {
+    testimonialsSlides.forEach((slide, index) => {
+        if (index === n) {
+            slide.classList.add("active");
+        } else {
+            slide.classList.remove("active");
+        }
+    });
+
+    dots.forEach((dot, index) => {
+        if (index === n) {
+            dot.classList.add("active");
+        } else {
+            dot.classList.remove("active");
+        }
+    });
+};
+
+const nextSlide = () => {
+    currentSlide = (currentSlide + 1) % testimonialsSlides.length;
+    showSlide(currentSlide);
+};
+
+dots.forEach((dot, index) => {
+    dot.addEventListener("click", () => {
+        currentSlide = index;
+        showSlide(currentSlide);
+    });
+});
+
+showSlide(currentSlide);
+
+setInterval(nextSlide, 3000);
