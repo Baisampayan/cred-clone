@@ -580,3 +580,15 @@ a {
 .dot.active {
 	background-color: #ccc;
 }
+
+.section-disclaimer {
+    padding: 30px 200px;
+    background-color: #ffffff;
+    height: 25px;
+}
+
+.section-disclaimer p {
+    color: #000000;
+    font-family: 'Gilroy-Regular', sans-serif;
+    text-align: center;
+}
